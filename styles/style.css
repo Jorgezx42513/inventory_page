@@ -224,7 +224,11 @@ section{
    border:1px solid #CCC;
    padding: 10px;
    margin-bottom: 10px;
+   transition: border-color .25s ease, box-shadow .25s ease;
 }
+input:focus, textarea:focus {
+    outline: 0;
+  }
 #cont_form textarea{
     height: 70px;
     max-width: 100%;
